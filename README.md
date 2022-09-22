@@ -1,5 +1,5 @@
 # Portainer
-# Portainer
+# Instalação do Portainer
 
 
 * Portainer: Ferramenta para gerenciar container de forma gráfica utilizando o navegador.
@@ -8,17 +8,17 @@
 1º - Crie um diretorio com o nome "Portainer" e entre no mesmo.
 
 
-<syntaxhighlight lang="bash">
+
 mkdir Portainer
 cd Portainer
-</syntaxhighlight>
+
 
 
 2º - Crie um um arquivo ".yaml" com as informações abaixo.
 
 
 
-<syntaxhighlight lang="bash">
+
 vim docker-compose.yaml
 
     version: '3'
@@ -38,23 +38,23 @@ vim docker-compose.yaml
 
     volumes:
         portainer_data:
-</syntaxhighlight>
+
 
 
 3º Execute o arquivo ".yaml" para iniciar o contaienr Portainer.
 
 
-<syntaxhighlight lang="bash">
+
 docker-compose -f docker-compose.yaml up -d
-</syntaxhighlight>
+
 
 
 4º Acesse o navegador e digite a url abaixo.
 
 
-<syntaxhighlight lang="bash">
+
 http://IP-HOST:9000
-</syntaxhighlight>
+
 
 
 5º Na tela de login crie uma senha para user "admin"
