@@ -9,8 +9,9 @@
 
 
 
-mkdir Portainer
-cd Portainer
+~# mkdir Portainer
+
+~# cd Portainer
 
 
 
@@ -19,7 +20,9 @@ cd Portainer
 
 
 
-vim docker-compose.yaml
+~# vim docker-compose.yaml
+
+
 
     version: '3'
 
@@ -45,7 +48,7 @@ vim docker-compose.yaml
 
 
 
-docker-compose -f docker-compose.yaml up -d
+~# docker-compose -f docker-compose.yaml up -d
 
 
 
